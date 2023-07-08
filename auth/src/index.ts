@@ -17,7 +17,7 @@ app.use(json());
 app.use(
     cookieSession({
         signed: false, // Since JWT are by default tamper proof
-        secure: true // Cookies can only be handled if you are in https connection
+        //secure: true // Cookies can only be handled if you are in https connection
     })
 )
 
