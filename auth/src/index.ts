@@ -34,7 +34,7 @@ app.use(errorHandler);
 
 const start = async () => {
     try {
-        await mongoose.connect('mongodb+srv://saikatdevworks:cJQjt0HhOoxexSf6@test-cluster.kfa5qnw.mongodb.net/auth?w=majority');
+        await mongoose.connect('#');
         console.log('connected to MongoDB');
     }
     catch (err) {
